@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inteles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a class="logo" href="./index.html">
+        <span class="logo__title">Inteles</span>
+        Розумні інженерні системи</a>
+      <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="menu-toggle__icon" width="32" height="32">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <div class="menu">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">Про компанію</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Рішення</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Проекти</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Партнери</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Контакти</a></li>
+          </ul>
+        </nav>
+
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a class="contacts__link" href="mailto:info@inteles.com.ua">
+              <svg class="contacts__mail" width="16" height="12">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>info@inteles.com.ua</a>
+          </li>
+          <li class="contacts__item">
+            <a class="contacts__link" href="tel:+380442292394">
+              <svg class="contacts__phone" width="10" height="16">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>+ 380 44 229 23 94</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about section">
+      <div class="container">
+        <h1 class="about__title">Про компанію</h1>
+        <ul class="about__list">
+          <li class="about__item">
+            <h3 class="about__subtitle">Історія:</h3>
+            <p class="about__text">Проектно-інжинірингова компанія «Інтелес» заснована в 2019 році групою
+              висококваліфікованих фахівців, які
+              раніше
+              співпрацювали з іншими генпідрядними організаціями.</p>
+          </li>
+          <li class="about__item">
+            <h3 class="about__subtitle">Мета компанії:</h3>
+            <p class="about__text">Розробка та впровадження smart-рішень.</p>
+          </li>
+          <li class="about__item">
+            <h3 class="about__subtitle">Спеціалізація:</h3>
+            <ul class="about__sublist">
+              <li class="about__text">Системи технічної безпеки;</li>
+              <li class="about__text">Інженерна інфраструктура;</li>
+              <li class="about__text">Системи Smart Building (розумна будівля).</li>
+            </ul>
+          </li>
+          <li class="about__item">
+            <h3 class="about__subtitle">Компетенції:</h3>
+            <ul class="about__sublist">
+              <li class="about__text">Проектування, впровадження та технічний супровід;</li>
+              <li class="about__text">Створення концепцій, вибір корисних рішень;</li>
+              <li class="about__text">Створення довгострокових взаємовигідних відносин.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="solutions section">
+      <div class="container">
+        <h2 class="solutions__title">Рішення</h2>
+        <ul class="solutions__list">
+          <li>
+            <svg class="solutions__icon" width="40" height="40">
+              <use href="./images/symbol-defs.svg#icon-fingerprint"></use>
+            </svg>Системи безпеки об'єкта
+            <p>Зацікавлені істотно зменшити вплив людського фактору у забезпеченні безпеки?
+              Оберіть концепцію побудови інтегрованої системи безпеки - це зменшить ризики, пов'язані з помилками і
+              недобросовісними
+              діями обслуговуючого персоналу
+              Ефективно інтегруйте всі підсистеми комплексу - це забезпечить більш швидку і точну реакцію системи на
+              події
+              Забезпечте безперервність роботи системи - це запорука Вашої невразливості до зовнішніх загроз
+              Інтегруйте універсальні і адаптивні рішення - це заощадить Вам зусилля, кошти і час
+              Налаштуйте реєстрацію подій - документування необхідно для подальшого аналізу ситуацій.</p>
+            <p>Пропонуємо послуги проектування, інтеграції та інсталяції систем безпеки:
+              центральний пульт охорони (моніторингова)
+              відеоспостереження і відеоаналітіка
+              охоронно-пожежна сигналізація
+              системи контролю і управління доступом (СКУД)
+              системи навігації усередині споруди і розумної парковки
+              інші засоби технічного захисту та безпеки
+              рішення і системи від провідних виробників</p>
+          </li>
+          <li>
+            <svg class="solutions__icon" width="40" height="40">
+              <use href="./images/symbol-defs.svg#icon-screen-share"></use>
+            </svg>Інженерні рішення
+            <p>Розробили архітектурний вигляд будівлі?
+              Оберіть індивідуальний проект інженерної інфраструктури, необхідної для організації виробничого процесу і
+              роботи людей
+              Раціонально і зручно об'єднайте лінії комунікацій, передачі даних, охоронних і допоміжних систем в будівлі
+              Організуйте алгоритм взаємодії між комп'ютерним обладнанням, приладами голосового та відео зв'язку,
+              управління і
+              реагування протипожежними, охоронними та іншими системами
+              Використовуйте технології інформаційного моделювання будівель (BIM)</p>
+            <p>
+              Ми проектуємо, створюємо, інтегруємо і інсталюємо системи, що разом складають інженерну інфраструктуру
+              промислових
+              підприємств і офісних споруд:
+              Структуровані кабельні мережі (СКМ)
+              Системи електропостачання, безперебійне електроживлення
+              Вентиляція і кондиціонування, кліматичні системи
+              Технічна безпека і керування доступом
+              Безшовний Wi-Fi
+              IP-телефония
+              Системи відео і аудіо контенту
+            </p>
+          </li>
+          <li>
+            <svg class="solutions__icon" width="40" height="40">
+              <use href="./images/symbol-defs.svg#icon-home-secure"></use>
+            </svg>Системи Smart Building
+            <p>Створюйте проект інтеграції всіх інженерних систем об'єкта ще на етапі архітектурного проекту - це
+              зменшить Ваші витрати
+              при будівництві
+              Застосовуйте Центральну диспетчерську - це дозволить скоротити витрати керуючої компанії по таким
+              позиціям:
+              Скорочення споживання ресурсів
+              Скорочення обслуговуючого персоналу
+              Збільшення терміну експлуатації обладнання
+              Зниження аварійності
+              Створення додаткових платних сервісів
+              Регістрація і звітність
+              Передбачте можливість нарощувати і змінювати конфігурації систем
+              Проектуйте Multi-site Solutions - це дасть можливість управляти системами декількох будівель в кварталі з
+              однієї
+              диспетчерської</p>
+            <p>
+              Пропонуємо створення Smart Building, починаючи з проектування і інтеграції всіх інженерних систем будівлі:
+              система автоматизації будівлі
+              Центральна диспетчерська BMS
+              Програмно-апаратний комплекс відеоспостереження і відеоаналітики, в тому числі для відкритих публічних
+              просторів
+              Технічна безпека і керування доступом
+              Безпека відкритих публічних просторів
+              Системи електроспоживання
+              Інші системи: ліфти, бойлерні, водомірні пункти, теплопункти, система каналізації на засмічення
+              Управління освітленням фасаду і ландшафту
+              Структуровані кабельні мережі
+              Моніторинг навколишнього середовища і зеленої зони
+              Контент-системи для бізнес-зон та «зелених дахів»
+              Управління паркувальним простором
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects section">
+      <div class="container">
+        <h2 class="projects__title">Наші проекти</h2>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+                <!-- <img class="projects__image" srcset="
+          									./images/projects-img/technokryak480.jpg 450w,
+          									./images/projects-img/technokryak480@2x.jpg 900w,
+          									./images/projects-img/technokryak768.jpg 354w,
+          									./images/projects-img/technokryak768@2x.jpg 708w,
+          									./images/projects-img/technokryak1200.jpg 370w,
+          									./images/projects-img/technokryak1200@2x.jpg 740w"
+                  sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  src="./images/projects-img/technokryak480.jpg" alt="веб-сайт проєкту технокряк" loading="lazy" /> -->
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>Житловий квартал бізнес-класу, Київ</p>
+                    <p>Площа - 20 га</p>
+                    <p>Замовник - City One Development</p>
+                    <ul class="projects__descr--list">
+                      <li>концепція і проектування інженерних систем</li>
+                      <li>створення систем безпеки</li>
+                      <li>автоматизація і навігація парковок</li>
+                      <li>фасадне освітлення та його сценарії</li>
+                      <li>модернізація наявних інженерних систем</li>
+                      <li>центральний диспетчерський пункт</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">Новопечерські липки</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>Інноваційний парк, Київ</p>
+                    <p>Площа - 25 га</p>
+                    <p>Замовник - UDP</p>
+                    <ul class="projects__descr--list">
+                      <li>комплекс систем безпеки для території кампуса</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">Інноваційний парк UNIT.City</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>Бізнес-центр, Київ</p>
+                    <p>Площа - 20 500 кв.м.</p>
+                    <p>Паркомісць - 210</p>
+                    <p>Замовник - ДІЛОР КОНСАЛТИНГ ЮКРЕЙН</p>
+                    <ul class="projects__descr--list">
+                      <li>відеоспостереження</li>
+                      <li>СКД</li>
+                      <li>охоронна сигналізація</li>
+                      <li>СКС</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">Avenue53</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>Житловий комплекс преміум-класу, Київ</p>
+                    <p>Площа - 4 га</p>
+                    <p>Замовник - UDP</p>
+                    <ul class="projects__descr--list">
+                      <li>концепція і проектування інженерних систем</li>
+                      <li>створення систем безпеки</li>
+                      <li>фасадне освітлення та його сценарії</li>
+                      <li>модернізація наявних інженерних систем</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">Бульвар фонтанів</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>Житловий комплекс, Київ</p>
+                    <p>Площа - 1,3 га</p>
+                    <p>Замовник - Познякижилбуд</p>
+                    <ul class="projects__descr--list">
+                      <li>концепція і проектування інженерних систем</li>
+                      <li>створення систем безпеки</li>
+                      <li>автоматизація і навігація парковок</li>
+                      <li>фасадне освітлення та його сценарії</li>
+                      <li>модернізація наявних інженерних систем</li>
+                      <li>центральний диспетчерський пункт</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">Royal Tower</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>Житловий квартал, Київ</p>
+                    <p>31 поверх</p>
+                    <p>Замовник - TARYAN GROUP</p>
+                    <ul class="projects__descr--list">
+                      <li>концепція і проектування інженерних систем</li>
+                      <li>створення систем безпеки</li>
+                      <li>автоматизація і навігація парковок</li>
+                      <li>фасадне освітлення та його сценарії</li>
+                      <li>модернізація наявних інженерних систем</li>
+                      <li>центральний диспетчерський пункт</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">Jack House</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>Житловий квартал, Київ</p>
+                    <p>31 поверх</p>
+                    <p>Замовник - НЕСТ</p>
+                    <ul class="projects__descr--list">
+                      <li>концепція і проектування інженерних систем</li>
+                      <li>створення систем безпеки</li>
+                      <li>автоматизація і навігація парковок</li>
+                      <li>фасадне освітлення та його сценарії</li>
+                      <li>модернізація наявних інженерних систем</li>
+                      <li>центральний диспетчерський пункт</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">Покровский Посад</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>Центральній офіс, Київ</p>
+                    <ul class="projects__descr--list">
+                      <li>відеоспостереження</li>
+                      <li>СКД</li>
+                      <li>охоронна сигналізація</li>
+                      <li>СКС</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">Райффайзен Банк Аваль</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>Центральній офіс, Київ</p>
+                    <ul class="projects__descr--list">
+                      <li>відеоспостереження</li>
+                      <li>СКД</li>
+                      <li>охоронна сигналізація</li>
+                      <li>СКС</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">ОТР Банк</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>Банківська група Intesa Sanpaolo</p>
+                    <p>Центральній офіс, Київ</p>
+                    <ul class="projects__descr--list">
+                      <li>відеоспостереження</li>
+                      <li>СКД</li>
+                      <li>охоронна сигналізація</li>
+                      <li>СКС</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">Правекс Банк</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>Яготин, Київська область</p>
+                    <p>Площа - 60 000 кв.м.</p>
+                    <ul class="projects__descr--list">
+                      <li>комплекс систем безпеки для виробництва</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">Логістичний центр Рошен</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>British American Tobacco (BAT) Україна</p>
+                    <p>Прилуки, Чернігівська область</p>
+                    <p>Площа - 16 500 кв.м.</p>
+                    <ul class="projects__descr--list">
+                      <li>комплекс систем безпеки для виробництва</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">Фабрика BAT Прилуки</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <div class="projects__link">
+              <div class="projects__card">
+                <img src="https://placehold.co/600x400" alt="">
+
+                <div class="projects__overlay">
+                  <div class="projects__descr">
+                    <p>Iнвестиційно-банківська група GML Capital LLP (Велика Британія)</p>
+                    <p>Центральний офіс, Київ</p>
+                    <ul class="projects__descr--list">
+                      <li>Проектування системи безперебійного живлення</li>
+                      <li>Проектування електричних мереж</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="projects__content">
+                <p class="projects__name">Комерційний Індустріальний Банк</p>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <section class="partners section">
+      <div class="container">
+        <h2 class="partners__title">Наші партнери</h2>
+        <ul class="partners__list">
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+              <!-- <svg class="clients__icon" width="106" height="60">
+                <use href="./images/icons.svg#icon-client1"></use>
+              </svg> -->
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+              <!-- <svg class="clients__icon" width="106" height="60">
+                          <use href="./images/icons.svg#icon-client1"></use>
+                        </svg> -->
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+              <!-- <svg class="clients__icon" width="106" height="60">
+                          <use href="./images/icons.svg#icon-client1"></use>
+                        </svg> -->
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+              <!-- <svg class="clients__icon" width="106" height="60">
+                          <use href="./images/icons.svg#icon-client1"></use>
+                        </svg> -->
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+              <!-- <svg class="clients__icon" width="106" height="60">
+                          <use href="./images/icons.svg#icon-client1"></use>
+                        </svg> -->
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+          <li class="partners__item">
+            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="https://placehold.co/600x400" alt="">
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg class="menu-toggle__icon" width="40" height="40">
+        <use href="./images/icons.svg#icon-close-menu"></use>
+      </svg>
+    </button>
+
+    <div class="mobile-menu">
+      <nav class="mobile-nav">
+        <ul class="mobile-nav__list">
+          <li class="nav__item"><a class="nav__link" href="#">Про компанію</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Рішення</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Проекти</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Партнери</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script defer src="mobile-menu.js"></script>
+</body>
+
+</html>
