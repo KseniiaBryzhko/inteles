@@ -56,36 +56,50 @@
   </header>
 
   <main>
+    <section class="hero section">
+      <div class="container">
+        <h1 class="hero__title">Розробка та впровадження інтелектуальних рішень</h1>
+        <button class="hero__btn" type="button">Зв'язатись з нами</button>
+      </div>
+    </section>
+
     <section class="about section">
       <div class="container">
         <h1 class="about__title">Про компанію</h1>
+        <h2 class="about__subtitle">З 2019 року займаємось розробкою та впровадженням інтелектуальних рішень:</h2>
         <ul class="about__list">
           <li class="about__item">
-            <h3 class="about__subtitle">Історія:</h3>
-            <p class="about__text">Проектно-інжинірингова компанія «Інтелес» заснована в 2019 році групою
-              висококваліфікованих фахівців, які
-              раніше
-              співпрацювали з іншими генпідрядними організаціями.</p>
+            <svg class="about__icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-tick-circle"></use>
+            </svg>
+            системи технічної безпеки
           </li>
           <li class="about__item">
-            <h3 class="about__subtitle">Мета компанії:</h3>
-            <p class="about__text">Розробка та впровадження smart-рішень.</p>
+            <svg class="about__icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-tick-circle"></use>
+            </svg>
+            інженерна інфраструктура
           </li>
           <li class="about__item">
-            <h3 class="about__subtitle">Спеціалізація:</h3>
-            <ul class="about__sublist">
-              <li class="about__text">Системи технічної безпеки;</li>
-              <li class="about__text">Інженерна інфраструктура;</li>
-              <li class="about__text">Системи Smart Building (розумна будівля).</li>
-            </ul>
+            <svg class="about__icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-tick-circle"></use>
+            </svg>
+            системи "Розумного будинку"
           </li>
-          <li class="about__item">
-            <h3 class="about__subtitle">Компетенції:</h3>
-            <ul class="about__sublist">
-              <li class="about__text">Проектування, впровадження та технічний супровід;</li>
-              <li class="about__text">Створення концепцій, вибір корисних рішень;</li>
-              <li class="about__text">Створення довгострокових взаємовигідних відносин.</li>
-            </ul>
+        </ul>
+
+        <ul class="about__sublist">
+          <li class="about__sublist-item">
+            <h3 class="about__sublist-title">100+</h3>
+            <p class="about__sublist-text">успішно виконаних проектів</p>
+          </li>
+          <li class="about__sublist-item">
+            <h3 class="about__sublist-title">300+</h3>
+            <p class="about__sublist-text">змонтованих інженерних систем</p>
+          </li>
+          <li class="about__sublist-item">
+            <h3 class="about__sublist-title">50+</h3>
+            <p class="about__sublist-text">задоволених клієнтів</p>
           </li>
         </ul>
       </div>
@@ -95,11 +109,15 @@
       <div class="container">
         <h2 class="solutions__title">Рішення</h2>
         <ul class="solutions__list">
-          <li>
-            <svg class="solutions__icon" width="40" height="40">
-              <use href="./images/symbol-defs.svg#icon-fingerprint"></use>
-            </svg>Системи безпеки об'єкта
-            <p>Зацікавлені істотно зменшити вплив людського фактору у забезпеченні безпеки?
+          <li class="solutions__item">
+            <div class="solutions__icons">
+              <svg class="solutions__icon" width="40" height="40">
+                <use href="./images/symbol-defs.svg#icon-fingerprint"></use>
+              </svg>
+            </div>
+            <h3 class="solutions__subtitle">Системи безпеки об'єкта</h3>
+
+            <p class="solutions__text">Зацікавлені істотно зменшити вплив людського фактору у забезпеченні безпеки?
               Оберіть концепцію побудови інтегрованої системи безпеки - це зменшить ризики, пов'язані з помилками і
               недобросовісними
               діями обслуговуючого персоналу
@@ -108,7 +126,7 @@
               Забезпечте безперервність роботи системи - це запорука Вашої невразливості до зовнішніх загроз
               Інтегруйте універсальні і адаптивні рішення - це заощадить Вам зусилля, кошти і час
               Налаштуйте реєстрацію подій - документування необхідно для подальшого аналізу ситуацій.</p>
-            <p>Пропонуємо послуги проектування, інтеграції та інсталяції систем безпеки:
+            <p class="solutions__text">Пропонуємо послуги проектування, інтеграції та інсталяції систем безпеки:
               центральний пульт охорони (моніторингова)
               відеоспостереження і відеоаналітіка
               охоронно-пожежна сигналізація
@@ -116,12 +134,18 @@
               системи навігації усередині споруди і розумної парковки
               інші засоби технічного захисту та безпеки
               рішення і системи від провідних виробників</p>
+            <button class="solutions__btn" type="button">Замовити</button>
           </li>
-          <li>
-            <svg class="solutions__icon" width="40" height="40">
-              <use href="./images/symbol-defs.svg#icon-screen-share"></use>
-            </svg>Інженерні рішення
-            <p>Розробили архітектурний вигляд будівлі?
+
+          <li class="solutions__item">
+            <div class="solutions__icons">
+              <svg class="solutions__icon" width="40" height="40">
+                <use href="./images/symbol-defs.svg#icon-screen-share"></use>
+              </svg>
+            </div>
+            <h3 class="solutions__subtitle">Інженерні рішення</h3>
+
+            <p class="solutions__text">Розробили архітектурний вигляд будівлі?
               Оберіть індивідуальний проект інженерної інфраструктури, необхідної для організації виробничого процесу і
               роботи людей
               Раціонально і зручно об'єднайте лінії комунікацій, передачі даних, охоронних і допоміжних систем в будівлі
@@ -129,7 +153,7 @@
               управління і
               реагування протипожежними, охоронними та іншими системами
               Використовуйте технології інформаційного моделювання будівель (BIM)</p>
-            <p>
+            <p class="solutions__text">
               Ми проектуємо, створюємо, інтегруємо і інсталюємо системи, що разом складають інженерну інфраструктуру
               промислових
               підприємств і офісних споруд:
@@ -141,12 +165,19 @@
               IP-телефония
               Системи відео і аудіо контенту
             </p>
+            <button class="solutions__btn" type="button">Замовити</button>
           </li>
-          <li>
-            <svg class="solutions__icon" width="40" height="40">
-              <use href="./images/symbol-defs.svg#icon-home-secure"></use>
-            </svg>Системи Smart Building
-            <p>Створюйте проект інтеграції всіх інженерних систем об'єкта ще на етапі архітектурного проекту - це
+
+          <li class="solutions__item">
+            <div class="solutions__icons">
+              <svg class="solutions__icon" width="40" height="40">
+                <use href="./images/symbol-defs.svg#icon-home-secure"></use>
+              </svg>
+            </div>
+            <h3 class="solutions__subtitle">Системи Smart Building</h3>
+
+            <p class="solutions__text">Створюйте проект інтеграції всіх інженерних систем об'єкта ще на етапі
+              архітектурного проекту - це
               зменшить Ваші витрати
               при будівництві
               Застосовуйте Центральну диспетчерську - це дозволить скоротити витрати керуючої компанії по таким
@@ -161,7 +192,7 @@
               Проектуйте Multi-site Solutions - це дасть можливість управляти системами декількох будівель в кварталі з
               однієї
               диспетчерської</p>
-            <p>
+            <p class="solutions__text">
               Пропонуємо створення Smart Building, починаючи з проектування і інтеграції всіх інженерних систем будівлі:
               система автоматизації будівлі
               Центральна диспетчерська BMS
@@ -177,14 +208,214 @@
               Контент-системи для бізнес-зон та «зелених дахів»
               Управління паркувальним простором
             </p>
+            <button class="solutions__btn" type="button">Замовити</button>
           </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="partners section">
+      <div class="container">
+        <h2 class="partners__title">Наші партнери</h2>
+        <ul class="partners__list">
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.apc.com/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/apc.png" alt="apc">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.apollo-security.com/" target="_blank"
+              rel="noopener noreferrer nofollow" aria-label="іконка компанії клієнта">
+              <img src="images/partners/apollo.png" alt="apollo">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="http://avigilon.com/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/avigilon.png" alt="avigilon">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.axis.com/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/axis.png" alt="axis">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.boschsecurity.com/" target="_blank"
+              rel="noopener noreferrer nofollow" aria-label="іконка компанії клієнта">
+              <img src="images/partners/bosch.png" alt="bosch">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="http://www.came.com/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/came.png" alt="came">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.crestron.com/" target="_blank"
+              rel="noopener noreferrer nofollow" aria-label="іконка компанії клієнта">
+              <img src="images/partners/crestron.png" alt="crestron">
+            </a>
+          </li>
+
+
+
+          <li class="partners__item">
+            <a class="partners__link" href="http://www.dkc.kiev.ua/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/dkc.png" alt="dkc">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.effeff.de/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/effeff.png" alt="effeff">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.hanwha-security.com/" target="_blank"
+              rel="noopener noreferrer nofollow" aria-label="іконка компанії клієнта">
+              <img src="images/partners/hanwha.png" alt="hanwha">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.hikvision.com/" target="_blank"
+              rel="noopener noreferrer nofollow" aria-label="іконка компанії клієнта">
+              <img src="images/partners/hikvision.png" alt="hikvision">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.innerrange.com/" target="_blank"
+              rel="noopener noreferrer nofollow" aria-label="іконка компанії клієнта">
+              <img src="images/partners/innerrange.png" alt="innerrange">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.kramerav.com/" target="_blank"
+              rel="noopener noreferrer nofollow" aria-label="іконка компанії клієнта">
+              <img src="images/partners/kramer.png" alt="kramer">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://legrand.com/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/legrand.png" alt="legrand">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.magnetic-access.com/" target="_blank"
+              rel="noopener noreferrer nofollow" aria-label="іконка компанії клієнта">
+              <img src="images/partners/magnetic.png" alt="magnetic">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.mobotix.com/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/mobotix.png" alt="mobotix">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.molex.com/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/molex.png" alt="molex">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="http://ok-net.com.ua/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/ok-net.png" alt="ok-net">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.premiumline-cabling.com/" target="_blank"
+              rel="noopener noreferrer nofollow" aria-label="іконка компанії клієнта">
+              <img src="images/partners/premiumline.png" alt="premiumline">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://rci.ua/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/rci.png" alt="rci">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.satel.pl/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/satel.png" alt="satel">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.schneider-electric.com/" target="_blank"
+              rel="noopener noreferrer nofollow" aria-label="іконка компанії клієнта">
+              <img src="images/partners/schneider.png" alt="schneider">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://new.siemens.com/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/siemens.png" alt="siemens">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="http://www.toaelectronics.com/" target="_blank"
+              rel="noopener noreferrer nofollow" aria-label="іконка компанії клієнта">
+              <img src="images/partners/toa.png" alt="toa">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="http://u-prox.com/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/u-prox.png" alt="u-prox">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://www.ui.com/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/ui.png" alt="ui">
+            </a>
+          </li>
+
+          <li class="partners__item">
+            <a class="partners__link" href="https://venbest.ltd/" target="_blank" rel="noopener noreferrer nofollow"
+              aria-label="іконка компанії клієнта">
+              <img src="images/partners/venbest.png" alt="venbest">
+            </a>
+          </li>
+
         </ul>
       </div>
     </section>
 
     <section class="projects section">
       <div class="container">
-        <h2 class="projects__title">Наші проекти</h2>
+        <h2 class="projects__title">Наші проєкти</h2>
         <ul class="projects__list">
           <li class="projects__item">
             <div class="projects__link">
@@ -515,209 +746,7 @@
       </div>
     </section>
 
-    <section class="partners section">
-      <div class="container">
-        <h2 class="partners__title">Наші партнери</h2>
-        <ul class="partners__list">
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-              <!-- <svg class="clients__icon" width="106" height="60">
-                <use href="./images/icons.svg#icon-client1"></use>
-              </svg> -->
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-              <!-- <svg class="clients__icon" width="106" height="60">
-                          <use href="./images/icons.svg#icon-client1"></use>
-                        </svg> -->
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-              <!-- <svg class="clients__icon" width="106" height="60">
-                          <use href="./images/icons.svg#icon-client1"></use>
-                        </svg> -->
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-              <!-- <svg class="clients__icon" width="106" height="60">
-                          <use href="./images/icons.svg#icon-client1"></use>
-                        </svg> -->
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-              <!-- <svg class="clients__icon" width="106" height="60">
-                          <use href="./images/icons.svg#icon-client1"></use>
-                        </svg> -->
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
-          <li class="partners__item">
-            <a class="partners__link" href="" target="_blank" rel="noopener noreferrer nofollow"
-              aria-label="іконка компанії клієнта">
-              <img src="https://placehold.co/600x400" alt="">
-            </a>
-          </li>
 
-        </ul>
-      </div>
-    </section>
 
   </main>
 

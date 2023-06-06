@@ -1,26 +1,103 @@
-// .filters__list {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: flex-start;
-//   margin-bottom: 50px;
-//   gap: 8px;
-//   row-gap: 15px;
+.solutions {
+  background-color: var(--logo-color);
+  border-radius: 4px;
+}
 
-//   @media screen and (min-width: 768px) {
-//     margin-bottom: 30px;
-//     flex-wrap: nowrap;
-//     justify-content: center;
-//   }
+.solutions__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 12px;
+  color: var(--accent-color);
+}
 
-//   @media screen and (min-width: 1200px) {
-//     margin-bottom: 50px;
-//     flex-wrap: nowrap;
-//     justify-content: center;
-//   }
-// }
+.solutions__item {
+  background-color: var(--accent-color);
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.solutions__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
 
 .solutions__icon {
   fill: none;
-  // stroke: var(--logo-color);
-  stroke: #2f2e33;
+  stroke: var(--text-color);
 }
+
+.solutions__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 12px;
+
+  // @media screen and (max-width: 767px) {
+  //   text-align: center;
+  // }
+}
+
+.solutions__text {
+  margin-bottom: 12px;
+}
+
+.solutions__btn {
+  padding: 10px 32px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  font-family: inherit;
+  color: var(--accent-color);
+  background-color: var(--logo-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  border-width: 0;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--logo-color);
+  }
+}
+
+// .features__list {
+//   @media screen and (min-width: 768px) {
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 30px;
+//   }
+// }
+
+// .features__item:not(:first-child) {
+//   @media screen and (max-width: 767px) {
+//     margin-top: 30px;
+//   }
+// }
+
+// .features__item {
+//   @media screen and (min-width: 768px) {
+//     width: calc((100% - 30px) / 2);
+//   }
+
+//   @media screen and (min-width: 1200px) {
+//     width: calc((100% - 90px) / 4);
+//   }
+// }
+
+// .features__descr {
+//   font-size: var(--primary-font-size);
+//   line-height: 1.7;
+//   margin-top: 10px;
+// }
