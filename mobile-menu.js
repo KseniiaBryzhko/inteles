@@ -22,4 +22,14 @@
     openMenuBtn.setAttribute('aria-expanded', false);
     bodyScrollLock.enableBodyScroll(document.body);
   });
+
+  // Close the mobile menu on click
+  const closeMobileBtn = document.querySelectorAll('.mobile-nav__link');
+  closeMobileBtn.forEach(function (item) {
+    item.addEventListener('click', function (e) {
+      const menu = document.querySelector('#mobile-menu');
+      menu.classList.remove('is-open');
+      bodyScrollLock.enableBodyScroll(document.body);
+    });
+  });
 })();
