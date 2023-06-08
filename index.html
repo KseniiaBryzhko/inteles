@@ -59,7 +59,7 @@
     <section class="hero section" id="hero">
       <div class="container">
         <h1 class="hero__title">Розробка та впровадження інтелектуальних рішень</h1>
-        <button class="hero__btn" type="button">Зв'язатись з нами</button>
+        <button class="hero__btn" type="button" data-modal-open>Зв'язатись з нами</button>
       </div>
     </section>
 
@@ -134,7 +134,7 @@
               системи навігації усередині споруди і розумної парковки
               інші засоби технічного захисту та безпеки
               рішення і системи від провідних виробників</p>
-            <button class="solutions__btn" type="button">Замовити</button>
+            <button class="solutions__btn" type="button" data-modal-open>Замовити</button>
           </li>
 
           <li class="solutions__item">
@@ -165,7 +165,7 @@
               IP-телефония
               Системи відео і аудіо контенту
             </p>
-            <button class="solutions__btn" type="button">Замовити</button>
+            <button class="solutions__btn" type="button" data-modal-open>Замовити</button>
           </li>
 
           <li class="solutions__item">
@@ -208,7 +208,7 @@
               Контент-системи для бізнес-зон та «зелених дахів»
               Управління паркувальним простором
             </p>
-            <button class="solutions__btn" type="button">Замовити</button>
+            <button class="solutions__btn" type="button" data-modal-open>Замовити</button>
           </li>
         </ul>
       </div>
@@ -266,8 +266,6 @@
               <img src="images/partners/crestron.png" alt="crestron">
             </a>
           </li>
-
-
 
           <li class="partners__item">
             <a class="partners__link" href="http://www.dkc.kiev.ua/" target="_blank" rel="noopener noreferrer nofollow"
@@ -370,7 +368,7 @@
           <li class="partners__item">
             <a class="partners__link" href="https://www.schneider-electric.com/" target="_blank"
               rel="noopener noreferrer nofollow" aria-label="іконка компанії клієнта">
-              <img src="images/partners/schneider.png" alt="schneider">
+              <img src="images/partners/schneider.jpg" alt="schneider">
             </a>
           </li>
 
@@ -850,7 +848,7 @@
                 </li>
               </ul>
             </address>
-            <button class="solutions__btn" type="button">Зв'язатись з нами</button>
+            <button class="solutions__btn" type="button" data-modal-open>Зв'язатись з нами</button>
           </div>
         </div>
 
@@ -874,7 +872,7 @@
 
   <div class="menu-container js-menu-container" id="mobile-menu">
     <button class="menu-toggle js-close-menu">
-      <svg class="menu-toggle__icon" width="40" height="40">
+      <svg class="menu-toggle__icon close" width="40" height="40">
         <use href="./images/icons.svg#icon-close-menu"></use>
       </svg>
     </button>
@@ -894,10 +892,54 @@
     <button class="hero__btn" type="button">Зв'язатись з нами</button>
   </div>
 
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal__close-btn" type="button" data-modal-close>
+        <svg width="18" height="18">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <form class="form" name="contacts_form" autocomplete="off" novalidate>
+        <p class="form__title">Залиште свої дані, ми Вам передзвонимо</p>
+        <div class="form__group">
+          <label class="form__label" for="name">Ім'я</label>
+          <div class="form__container">
+            <input class="form__input" type="text" name="name" id="name" required />
+            <svg class="form__icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+          <label class="form__label" for="phone">Телефон</label>
+          <div class="form__container">
+            <input class="form__input" type="tel" name="phone" id="phone" required />
+            <svg class="form__icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-phonepipe"></use>
+            </svg>
+          </div>
+          <label class="form__label" for="mail">Пошта</label>
+          <div class="form__container">
+            <input class="form__input" type="email" name="mail" id="mail" required />
+            <svg class="form__icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+          <div>
+            <label class="form__label" for="comment">Коментар</label>
+            <textarea class="form__comment" name="user_message" id="comment" rows="6"
+              placeholder="Введіть текст"></textarea>
+          </div>
+        </div>
+        <button class="solutions__btn" type="submit">Відправити</button>
+      </form>
+    </div>
+  </div>
+
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
     integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
     crossorigin="anonymous"></script>
   <script defer src="mobile-menu.js"></script>
+  <script defer src="modal.js"></script>
+
 </body>
 
 </html>
