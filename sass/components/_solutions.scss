@@ -44,8 +44,23 @@
   // }
 }
 
+.solutions__wrapper {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+.solutions__content {
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
 .solutions__text {
   margin-bottom: 12px;
+  list-style: inside;
+  text-align: start;
 }
 
 .solutions__btn {

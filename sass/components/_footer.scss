@@ -19,14 +19,26 @@
   &:focus {
     color: var(--logo-color);
   }
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
 }
 
 .footer__text {
   font-size: 10px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
 }
 
 .footer__text--link {
   color: var(--logo-color);
+
+  // @media screen and (min-width: 768px) {
+  //   font-size: 18px;
+  // }
 }
 
 .footer__icon {

@@ -24,16 +24,33 @@
   color: var(--logo-color);
 }
 
-// .header__container {
-//   min-height: 60px;
-//   display: flex;
-//   align-items: center;
+.header__container {
+  display: flex;
+  align-items: end;
 
-//   @media screen and (min-width: 768px) {
-//     min-height: 80px;
-//   }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    justify-content: space-between;
+  }
+}
 
-//   @media screen and (min-width: 768px) and (max-width: 1199px) {
-//     justify-content: space-between;
-//   }
-// }
+.nav__contacts {
+  @media screen and (max-width: 1439px) {
+    display: none;
+  }
+}
+
+.nav__list {
+  display: flex;
+  gap: 12px;
+}
+
+.nav__link {
+  color: currentColor;
+  font-weight: 600;
+
+  &:hover,
+  &:focus {
+    color: var(--logo-color);
+    text-decoration: underline;
+  }
+}

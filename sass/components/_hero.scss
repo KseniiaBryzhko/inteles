@@ -4,7 +4,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media screen and (min-width: 768px) {
+    background-image: url('../images/bcg.jpg');
+  }
 }
+
+// .hero__container {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   // height: 90%;
+// }
 
 .hero__title {
   text-align: center;

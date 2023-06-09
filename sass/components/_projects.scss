@@ -19,12 +19,12 @@
 
 .projects__item {
   @media screen and (min-width: 768px) {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 
-  @media screen and (min-width: 1200px) {
-    width: calc((100% - 60px) / 3);
-  }
+  // @media screen and (min-width: 1200px) {
+  //   width: calc((100% - 60px) / 3);
+  // }
 }
 
 .projects__item:not(:first-child) {

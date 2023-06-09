@@ -13,20 +13,33 @@
 .contacts__map {
   @media screen and (min-width: 768px) {
     display: flex;
+    gap: 75px;
   }
 }
 
 .contacts__map--wrapper {
   margin-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 
 .contacts__address--item {
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 
   // @media screen and (min-width: 1200px) {
   //   margin-right: 50px;
   //   margin-bottom: 0;
   // }
+}
+
+.contacts__address--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contacts__address--link {
@@ -35,10 +48,15 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   font-weight: 600;
+  max-width: 250px;
 
   &:hover,
   &:focus {
     color: var(--logo-color);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
   }
 
   // @media screen and (min-width: 1200px) {
