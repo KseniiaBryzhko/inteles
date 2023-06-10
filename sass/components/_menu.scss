@@ -8,6 +8,11 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
+
+  @media screen and (min-width: 1280px) {
+    margin-left: 90px;
+    flex-grow: 1;
+  }
 }
 
 .menu-toggle {

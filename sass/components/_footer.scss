@@ -23,6 +23,10 @@
   @media screen and (min-width: 768px) {
     font-size: 18px;
   }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 22px;
+  }
 }
 
 .footer__text {
@@ -31,14 +35,14 @@
   @media screen and (min-width: 768px) {
     font-size: 14px;
   }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+  }
 }
 
 .footer__text--link {
   color: var(--logo-color);
-
-  // @media screen and (min-width: 768px) {
-  //   font-size: 18px;
-  // }
 }
 
 .footer__icon {
@@ -48,41 +52,3 @@
   background-color: var(--logo-color);
   fill: var(--accent-color);
 }
-
-// .footer__container {
-//   @media screen and (min-width: 1200px) {
-//     display: flex;
-//     align-items: baseline;
-//   }
-// }
-
-// .footer__wrapper {
-//   @media screen and (min-width: 768px) {
-//     display: flex;
-//     justify-content: center;
-//     gap: 165px;
-//     align-items: baseline;
-//   }
-
-//   @media screen and (max-width: 1199px) {
-//     width: 100%;
-//   }
-
-//   @media screen and (min-width: 1200px) {
-//     gap: 70px;
-//   }
-// }
-
-// .footer-join {
-//   @media screen and (max-width: 767px) {
-//     margin-top: 60px;
-//   }
-// }
-
-// .footer-join__title {
-//   color: var(--thirdy-color);
-//   font-weight: 700;
-//   font-size: 14px;
-//   line-height: 1.1;
-//   text-transform: uppercase;
-// }
