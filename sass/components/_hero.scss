@@ -26,21 +26,34 @@
   }
 }
 
-// .hero__container {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-between;
-//   // height: 90%;
-// }
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  gap: 40px;
+
+  @media screen and (min-width: 768px) {
+    gap: 80px;
+  }
+}
 
 .hero__title {
   text-align: center;
   text-transform: uppercase;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
   font-size: 32px;
-  margin-top: 80px;
-  margin-bottom: 40px;
   color: var(--accent-color);
+
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 1.6;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 48px;
+  }
 }
 
 .hero__btn {
