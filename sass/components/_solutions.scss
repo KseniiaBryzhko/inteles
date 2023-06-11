@@ -56,6 +56,10 @@
 }
 
 .solutions__wrapper {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
   @media screen and (min-width: 768px) {
     display: flex;
     gap: 24px;
@@ -118,5 +122,18 @@
 
   @media screen and (min-width: 1280px) {
     font-size: 22px;
+  }
+}
+
+.read-more {
+  background-color: transparent;
+  margin-bottom: 18px;
+  font-size: 18px;
+  text-decoration: underline;
+  text-underline-position: under;
+
+  &:hover,
+  &:focus {
+    color: var(--logo-color);
   }
 }

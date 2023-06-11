@@ -127,6 +127,7 @@ a {
   left: 0;
   z-index: 1;
   min-height: 132px;
+  width: 100%;
 }
 
 .logo {
@@ -217,14 +218,34 @@ a {
 
 .hero {
   height: 100vh;
-  background-image: url("../images/bcg-mob.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: url("../images/hero/bcg-mob.jpg");
 }
-@media screen and (min-width: 768px) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: url("../images/bcg.jpg");
+    background-image: url("../images/hero/bcg-mob@2x.jpg");
+  }
+}
+@media screen and (min-width: 376px) {
+  .hero {
+    background-image: url("../images/hero/bcg-tab.jpg");
+  }
+}
+@media screen and (min-width: 376px) and (min-device-pixel-ratio: 2), screen and (min-width: 376px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 376px) and (min-resolution: 192dpi), screen and (min-width: 376px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/hero/bcg-tab@2x.jpg");
+  }
+}
+@media screen and (min-width: 769px) {
+  .hero {
+    background-image: url("../images/hero/bcg.jpg");
+  }
+}
+@media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/hero/bcg@2x.jpg");
   }
 }
 
@@ -427,6 +448,11 @@ a {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .solutions__wrapper {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .solutions__wrapper {
     display: -webkit-box;
@@ -498,6 +524,17 @@ a {
   .solutions__btn {
     font-size: 22px;
   }
+}
+
+.read-more {
+  background-color: transparent;
+  margin-bottom: 18px;
+  font-size: 18px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.read-more:hover, .read-more:focus {
+  color: var(--logo-color);
 }
 
 .projects {
@@ -909,6 +946,13 @@ a {
   margin-right: 8px;
   background-color: var(--logo-color);
   fill: var(--accent-color);
+}
+@media screen and (min-width: 1280px) {
+  .footer__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 0;
+  }
 }
 
 .menu {

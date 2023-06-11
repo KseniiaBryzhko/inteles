@@ -1,12 +1,28 @@
 .hero {
   height: 100vh;
-  background-image: url('../images/bcg-mob.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-image: url('../images/hero/bcg-mob.jpg');
 
-  @media screen and (min-width: 768px) {
-    background-image: url('../images/bcg.jpg');
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url('../images/hero/bcg-mob@2x.jpg');
+  }
+
+  @media screen and (min-width: 376px) {
+    background-image: url('../images/hero/bcg-tab.jpg');
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/hero/bcg-tab@2x.jpg');
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    background-image: url('../images/hero/bcg.jpg');
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/hero/bcg@2x.jpg');
+    }
   }
 }
 

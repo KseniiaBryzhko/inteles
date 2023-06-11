@@ -51,4 +51,10 @@
   margin-right: 8px;
   background-color: var(--logo-color);
   fill: var(--accent-color);
+
+  @media screen and (min-width: 1280px) {
+    width: 24px;
+    height: 24px;
+    margin-right: 0;
+  }
 }
