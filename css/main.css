@@ -595,6 +595,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 1px solid var(--logo-color);
   background-color: var(--accent-color);
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
@@ -646,7 +647,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
 }
 @media screen and (min-width: 1280px) {
   .projects__name {
@@ -679,7 +680,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid var(--logo-color);
 }
 
 .partners__title {
