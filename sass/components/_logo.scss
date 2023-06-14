@@ -2,11 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  // width: 100%;
   width: 375px;
 }
 
 .first-row__first {
   width: 240px;
+  // width: 64%;
   height: 2px;
   position: relative;
   margin-bottom: 2px;
@@ -22,17 +24,20 @@
   z-index: 1;
   border-bottom-right-radius: 5px;
   background-color: var(--logo-color);
-  animation: first 2s linear forwards;
+  animation: first 1s linear forwards;
 }
 
 .first-row__second {
   width: 70px;
+  // width: 18.67%;
   position: relative;
   height: 2px;
   transform: rotate(-45deg);
   position: absolute;
-  left: 229px;
+  // left: 229px;
   top: -24px;
+  left: 61.07%;
+  // top: -6.4%;
 }
 
 .first-row__second::after {
@@ -44,12 +49,13 @@
   right: 0;
   z-index: 1;
   background-color: var(--logo-color);
-  animation: first 2s linear 2s forwards;
+  animation: first 1s linear 1s forwards;
   border-bottom-left-radius: 5px;
 }
 
 .first-row__third {
   width: 74px;
+  // width: 19.73%;
   height: 1px;
   position: relative;
   transform: rotate(-90deg);
@@ -68,11 +74,12 @@
   z-index: 2;
   transform: skewX(45deg);
   background-color: var(--logo-color);
-  animation: first 2s linear 6s forwards;
+  animation: first 1s linear 3s forwards;
 }
 
 .second-row__first {
   width: 245px;
+  // width: 65.33%;
   height: 2px;
   position: relative;
   margin-bottom: 4px;
@@ -88,11 +95,12 @@
   z-index: 1;
   border-bottom-right-radius: 5px;
   background-color: var(--logo-color);
-  animation: first 2s linear forwards;
+  animation: first 1s linear forwards;
 }
 
 .second-row__second {
   width: 45px;
+  // width: 12%;
   position: relative;
   height: 2px;
   transform: rotate(-45deg);
@@ -110,13 +118,14 @@
   right: 0;
   z-index: 1;
   background-color: var(--logo-color);
-  animation: first 2s linear 2s forwards;
+  animation: first 1s linear 1s forwards;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }
 
 .second-row__third {
   width: 80px;
+  // width: 21.33%;
   height: 2px;
   position: relative;
   position: absolute;
@@ -133,11 +142,12 @@
   right: 0;
   z-index: 1;
   background-color: var(--logo-color);
-  animation: first 2s linear 4s forwards;
+  animation: first 1s linear 2s forwards;
 }
 
 .third-row__first {
   width: 242px;
+  // width: 64.53%;
   height: 4px;
   left: -2px;
   position: relative;
@@ -154,11 +164,12 @@
   z-index: 1;
   transform: skewX(-45deg);
   background-color: var(--logo-color);
-  animation: first 2s linear forwards;
+  animation: first 1s linear forwards;
 }
 
 .third-row__second {
   width: 65px;
+  // width: 17.33%;
   height: 1px;
   left: -4px;
   position: relative;
@@ -175,11 +186,12 @@
   z-index: 1;
   transform: skewX(-45deg);
   background-color: var(--logo-color);
-  animation: first 2s linear 2s forwards;
+  animation: first 1s linear 1s forwards;
 }
 
 .third-row__third {
   width: 80px;
+  // width: 21.33%;
   position: relative;
   height: 1px;
   transform: rotate(-45deg);
@@ -198,13 +210,14 @@
   z-index: 1;
   transform: skewX(45deg);
   background-color: var(--logo-color);
-  animation: first 2s linear 4s forwards;
+  animation: first 1s linear 2s forwards;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }
 
 .fourth-row__first {
   width: 270px;
+  // width: 72%;
   height: 6px;
   left: -3px;
   position: relative;
@@ -220,11 +233,12 @@
   z-index: 1;
   transform: skewX(-45deg);
   background-color: var(--logo-color);
-  animation: first 2s linear forwards;
+  animation: first 1s linear forwards;
 }
 
 .fourth-row__second {
   width: 45px;
+  // width: 12%;
   position: relative;
   height: 12px;
   transform: rotate(-45deg);
@@ -243,11 +257,12 @@
   z-index: 1;
   transform: skewX(45deg);
   background-color: var(--logo-color);
-  animation: first 2s linear 2s forwards;
+  animation: first 1s linear 1s forwards;
 }
 
 .fourth-row__third {
   width: 86px;
+  // width: 22.93%;
   height: 3px;
   top: -28px;
   left: 20px;
@@ -263,11 +278,12 @@
   right: 0;
   z-index: 1;
   background-color: var(--logo-color);
-  animation: first 2s linear 4s forwards;
+  animation: first 1s linear 2s forwards;
 }
 
 .fifth-row__first {
   width: 120px;
+  // width: 32%;
   height: 6px;
   left: -3px;
   position: relative;
@@ -283,11 +299,12 @@
   z-index: 1;
   transform: skewX(-45deg);
   background-color: var(--logo-color);
-  animation: first 2s linear forwards;
+  animation: first 1s linear forwards;
 }
 
 .fifth-row__second {
   width: 24px;
+  // width: 6.4%;
   position: relative;
   height: 1px;
   transform: rotate(-45deg);
@@ -306,7 +323,7 @@
   z-index: 1;
   transform: skewX(45deg);
   background-color: var(--logo-color);
-  animation: first 2s linear forwards;
+  animation: first 1s linear forwards;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }

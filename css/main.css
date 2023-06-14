@@ -243,8 +243,8 @@ a {
   z-index: 1;
   border-bottom-right-radius: 5px;
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear forwards;
-          animation: first 2s linear forwards;
+  -webkit-animation: first 1s linear forwards;
+          animation: first 1s linear forwards;
 }
 
 .first-row__second {
@@ -254,8 +254,8 @@ a {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   position: absolute;
-  left: 229px;
   top: -24px;
+  left: 61.07%;
 }
 
 .first-row__second::after {
@@ -267,8 +267,8 @@ a {
   right: 0;
   z-index: 1;
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear 2s forwards;
-          animation: first 2s linear 2s forwards;
+  -webkit-animation: first 1s linear 1s forwards;
+          animation: first 1s linear 1s forwards;
   border-bottom-left-radius: 5px;
 }
 
@@ -294,8 +294,8 @@ a {
   -webkit-transform: skewX(45deg);
           transform: skewX(45deg);
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear 6s forwards;
-          animation: first 2s linear 6s forwards;
+  -webkit-animation: first 1s linear 3s forwards;
+          animation: first 1s linear 3s forwards;
 }
 
 .second-row__first {
@@ -315,8 +315,8 @@ a {
   z-index: 1;
   border-bottom-right-radius: 5px;
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear forwards;
-          animation: first 2s linear forwards;
+  -webkit-animation: first 1s linear forwards;
+          animation: first 1s linear forwards;
 }
 
 .second-row__second {
@@ -339,8 +339,8 @@ a {
   right: 0;
   z-index: 1;
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear 2s forwards;
-          animation: first 2s linear 2s forwards;
+  -webkit-animation: first 1s linear 1s forwards;
+          animation: first 1s linear 1s forwards;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -363,8 +363,8 @@ a {
   right: 0;
   z-index: 1;
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear 4s forwards;
-          animation: first 2s linear 4s forwards;
+  -webkit-animation: first 1s linear 2s forwards;
+          animation: first 1s linear 2s forwards;
 }
 
 .third-row__first {
@@ -386,8 +386,8 @@ a {
   -webkit-transform: skewX(-45deg);
           transform: skewX(-45deg);
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear forwards;
-          animation: first 2s linear forwards;
+  -webkit-animation: first 1s linear forwards;
+          animation: first 1s linear forwards;
 }
 
 .third-row__second {
@@ -409,8 +409,8 @@ a {
   -webkit-transform: skewX(-45deg);
           transform: skewX(-45deg);
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear 2s forwards;
-          animation: first 2s linear 2s forwards;
+  -webkit-animation: first 1s linear 1s forwards;
+          animation: first 1s linear 1s forwards;
 }
 
 .third-row__third {
@@ -435,8 +435,8 @@ a {
   -webkit-transform: skewX(45deg);
           transform: skewX(45deg);
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear 4s forwards;
-          animation: first 2s linear 4s forwards;
+  -webkit-animation: first 1s linear 2s forwards;
+          animation: first 1s linear 2s forwards;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -459,8 +459,8 @@ a {
   -webkit-transform: skewX(-45deg);
           transform: skewX(-45deg);
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear forwards;
-          animation: first 2s linear forwards;
+  -webkit-animation: first 1s linear forwards;
+          animation: first 1s linear forwards;
 }
 
 .fourth-row__second {
@@ -485,8 +485,8 @@ a {
   -webkit-transform: skewX(45deg);
           transform: skewX(45deg);
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear 2s forwards;
-          animation: first 2s linear 2s forwards;
+  -webkit-animation: first 1s linear 1s forwards;
+          animation: first 1s linear 1s forwards;
 }
 
 .fourth-row__third {
@@ -506,8 +506,8 @@ a {
   right: 0;
   z-index: 1;
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear 4s forwards;
-          animation: first 2s linear 4s forwards;
+  -webkit-animation: first 1s linear 2s forwards;
+          animation: first 1s linear 2s forwards;
 }
 
 .fifth-row__first {
@@ -528,8 +528,8 @@ a {
   -webkit-transform: skewX(-45deg);
           transform: skewX(-45deg);
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear forwards;
-          animation: first 2s linear forwards;
+  -webkit-animation: first 1s linear forwards;
+          animation: first 1s linear forwards;
 }
 
 .fifth-row__second {
@@ -554,8 +554,8 @@ a {
   -webkit-transform: skewX(45deg);
           transform: skewX(45deg);
   background-color: var(--logo-color);
-  -webkit-animation: first 2s linear forwards;
-          animation: first 2s linear forwards;
+  -webkit-animation: first 1s linear forwards;
+          animation: first 1s linear forwards;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
   <meta charset="UTF-8">
@@ -55,22 +55,30 @@
           </li>
         </ul>
       </div>
+
     </div>
     <div class="stripes">
-      <div class="first-row__first"></div>
+      <div class="first-row__first row"></div>
       <div class="first-row__second"></div>
       <div class="first-row__third"></div>
-      <div class="second-row__first"></div>
+
+      <div class="second-row__first row"></div>
       <div class="second-row__second"></div>
       <div class="second-row__third"></div>
-      <div class="third-row__first"></div>
+
+      <div class="third-row__first row"></div>
       <div class="third-row__second"></div>
       <div class="third-row__third"></div>
-      <div class="fourth-row__first"></div>
+
+
+      <div class="fourth-row__first row"></div>
       <div class="fourth-row__second"></div>
       <div class="fourth-row__third"></div>
-      <div class="fifth-row__first"></div>
+
+      <div class="fifth-row__first row"></div>
       <div class="fifth-row__second"></div>
+    </div>
+
   </header>
 
   <main class="content">
@@ -1070,7 +1078,7 @@
         </ul>
       </nav>
     </div>
-    <button class="hero__btn" type="button">Зв'язатись з нами</button>
+    <button class="hero__btn" type="button" data-modal-open>Зв'язатись з нами</button>
   </div>
 
   <div class="backdrop is-hidden" data-modal>
@@ -1080,7 +1088,7 @@
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
-      <form class="form" name="contacts_form" autocomplete="off" novalidate>
+      <form class="form" id="form" name="contacts_form" autocomplete="off" novalidate>
         <p class="form__title">Залиште свої дані, ми Вам передзвонимо</p>
         <div class="form__group">
           <label class="form__label" for="name">Ім'я</label>
@@ -1121,6 +1129,7 @@
   <script defer src="mobile-menu.js"></script>
   <script defer src="modal.js"></script>
   <script defer src="read-more.js"></script>
+  <script defer src="sendmail.js"></script>
 
 </body>
 
