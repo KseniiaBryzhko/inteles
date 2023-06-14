@@ -14,19 +14,24 @@ $mail->CharSet = 'UTF-8';
 $mail->setLanguage('uk', 'phpmailer/language');
 // $mail->IsHTML(true);
 
+$name = $_POST['name'];
+$phone = $_POST['phone'];
+$email = $_POST['mail'];
+$message = $_POST['user_message'];
+
 try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.example.com';                     //Set the SMTP server to send through
+    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'user@example.com';                     //SMTP username
-    $mail->Password   = 'secret';                               //SMTP password
+    $mail->Username   = 'olgaknagina741@gmail.com';                     //SMTP username
+    $mail->Password   = 'moonkin22091989';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('from@example.com', 'Mailer');
+    $mail->setFrom('olgaknagina741@gmail.com');
     $mail->addAddress('kseniya.brizhko@gmail.com');     //Add a recipient
     // $mail->addAddress('ellen@example.com');               //Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
@@ -40,11 +45,7 @@ try {
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Нове повідомлення';
-
-// $body = '<h1></h1>'
-
-
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+    $mail->Body    = '' .$name .$phone .$email .$message'';
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
